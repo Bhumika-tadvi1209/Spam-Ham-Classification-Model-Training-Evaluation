@@ -1,19 +1,19 @@
 # Spam–Ham Classification — Model Training & Evaluation
-This project classifies SMS messages as spam or ham using Python. It applies NLP techniques like tokenization, stopwords removal, stemming, lemmatization, TF-IDF, and feature engineering, with a Random Forest classifier for accurate predictions.
+A machine learning project focused on classifying text messages as Spam or Ham. Includes end-to-end NLP preprocessing (cleaning, tokenization, stopword removal, stemming/lemmatization), feature extraction, TF-IDF vectorization, model training, and performance evaluation.
 
 # Overview
 
-This project demonstrates a full NLP pipeline for text classification. It includes data cleaning, preprocessing, vectorization, feature engineering, and model building using machine learning. The notebook shows end-to-end steps from raw text to final prediction.
+This project builds a machine learning model to classify text messages as Spam or Ham. It includes complete NLP preprocessing, feature engineering, vectorization, and model training using classical algorithms. The goal of the project is to understand how text data is cleaned, transformed, and evaluated to create an effective spam detection model.
 
 # Features
 
-NLP preprocessing
-Tokenization & stopwords removal
+NLP preprocessing pipeline
+Tokenization & stopword removal
 Stemming & lemmatization
-CountVectorizer & TF-IDF
-Custom feature creation
-Random Forest model
-Performance evaluation
+CountVectorizer & TF-IDF vectorization
+Custom feature creation (length, punctuation %)
+Random Forest classifier
+Model performance evaluation
 
 # Tech Stack
 
@@ -26,11 +26,11 @@ Jupyter Notebook
 
 # How to Run
 
-Clone the repo
-Install required libraries
+Clone the repository
+Install required libraries using pip install -r requirements.txt
 Open the notebook in Jupyter
-Run all cells to train and test the model
+Run all cells to train and evaluate the model
 
 # result
 
-The Random Forest classifier provides strong predictive accuracy for distinguishing spam and ham messages.
+The Random Forest model delivers strong performance in classifying messages as spam or ham, achieving high accuracy, precision, and recall.
